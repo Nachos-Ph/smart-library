@@ -1,0 +1,93 @@
+body {
+    background-color: #ede9e9;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0;
+    padding-top: 10;
+}
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.sidebar {
+    background-color: #ffffff;
+    height: 100vh;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    border-right: 1px solid #ddd;
+}
+.sidebar ul.nav {
+    flex-direction: column;
+}
+.sidebar .nav-item {
+    width: 100%;
+}
+.sidebar .nav-link {
+    color: #333;
+    padding: 15px;
+}
+.content {
+    margin-left: 220px; 
+    padding: 20px;
+}
+.book-cover {
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 10px 10px 20px #909090;
+}
+.book-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.section-title {
+    margin-bottom: 10px;
+}
+
+.section-title h4 {
+    font-weight: bold;
+}
+.book-details {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.book-details img {
+    max-width: 100%;
+}
+.book-details h4, .book-details p, .book-details .rating {
+    margin: 10px 0;
+}
+.rating i {
+    color: #f4c150;
+}
+.books-card { 
+    cursor: pointer;
+}
+.stat-card {
+    margin-bottom: 20px;
+}
+.card {
+    border-radius: 20px;
+}
+#logo {
+    width:50px;
+    height: auto;
+}
